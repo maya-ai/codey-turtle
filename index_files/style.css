@@ -1,0 +1,98 @@
+html {
+    height: 100%;
+    font-size: 14px;
+    font-family: "Oxygen", sans-serif;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #flex-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  #left-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+  }
+  
+  #right-container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    overflow: hidden;
+  }
+  
+  #move-codey {
+    text-align: center;
+  }
+  
+  #instructions {
+    background-color: rgb(251, 251, 251);
+    border: thin solid rgb(214, 214, 214);
+    min-height: 100px;
+    width: 200px;
+    margin: auto;
+  }
+  
+  select {
+    cursor: pointer;
+    font-family: 'Oxygen';
+    font-size:14px;
+    color: #fa4359;
+    -webkit-text-fill-color: #fa4359;
+  }
+  
+  div#button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0px;
+  }
+  
+  button {
+    background-color: #214055;
+    border: 0px;
+    cursor: pointer;
+    padding: 5px 12px;
+  
+  }
+  
+  button:active {
+    background-color: #182E3D;
+  }
+  
+  #button-container button {
+    border-radius: 10px;
+    color: #fff;
+    min-width: 80px;
+    width: 70%;
+    min-height: 30px;
+    margin: 5px 0px;
+  }
+  
+  div#run-reset-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #run-reset-container button {
+    margin: 10px;
+    border-radius: 10px;
+    color: #fff;
+    min-width: 80px;
+  
+    min-height: 30px;
+  
+  }
+  
